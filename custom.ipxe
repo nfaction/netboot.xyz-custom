@@ -8,7 +8,7 @@
 goto ${menu} ||
 
 :custom_menu
-menu $$username$$ custom menu
+menu nfaction custom menu
 item --gap OS:
 item windows ${space} Windows
 choose menu || goto custom_exit
